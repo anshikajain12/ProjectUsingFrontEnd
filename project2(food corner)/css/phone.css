@@ -1,0 +1,35 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* home section */
+#home{
+    height: 455px;
+    padding: 3px 68px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* services */
+#services{
+    flex-direction: column;
+}
+
+/* clients */
+#clients{
+    overflow: hidden;
+}
+/* contact us */
+/* footer */
+/* utility class */
+.h-primary{
+    font-size: 26px;
+}
